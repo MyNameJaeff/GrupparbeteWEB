@@ -1,0 +1,75 @@
+/*FREDRIK CODE:*/¨
+body{
+    background-color: none;
+    margin: 0%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.header{
+    height: 50px;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: -1%;
+}
+.headerText{
+    text-decoration: underline;
+    font-size: 3em;
+}
+.button{
+    height: 60px;
+    width: 120px;
+    background-color: lightgray;
+}
+.dropdown {
+    position:fixed;
+    display: inline-block;
+    margin-left: 90%;
+    margin-top: 1%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 118px;
+    margin-left: 1px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.startsida{
+    background-image: url("/Webbdesign/GrupparbeteResturang/bilder/resturang.png");
+    background-size: cover;
+    height: 650px;
+    background-color: aqua;
+}
+.meny{
+    height: 650px;
+    background-color: lightgray;
+}
+.tider{
+    height: 650px;
+    background-color: lightblue;
+}
+/*ISAAC CODE:*/
+.body2 {
+    text-align: center;
+    background-image: url(images/pexels-photo-941861.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.form {
+    font-size: x-large;
+    font-style: bold;
+}
